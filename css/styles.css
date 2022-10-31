@@ -1,0 +1,233 @@
+:root {
+  --font-logo: "Raleway", sans-serif;
+  --color-hero: #2f303a;
+  --color-footer: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ------------СТУДІЯ---------------- */
+/* ------------HEADER---------------- */
+
+.logo {
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.studio-logo {
+  color: #000;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: #2196f3;
+}
+
+.info-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.head-contacts .info-link:hover,
+.head-contacts .info-link:focus {
+  color: #2196f3;
+}
+
+/* -------------MAIN----------------- */
+/* -------------HERO----------------- */
+.hero {
+  background: var(--color-hero);
+}
+
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn-hero {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background: #188ce8;
+}
+
+/* ------------BENEFITS-------------- */
+
+.benefit-name {
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefit-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* -----------ACTIVITY--------------- */
+
+.activity-title {
+  font-size: 36px;
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* -------------TEAM----------------- */
+.team-title {
+  font-size: 36px;
+  line-height: 1.1666;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-specialty {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team {
+  background: #f5f4fa;
+}
+/* ------------FOOTER---------------- */
+
+.logo-studio {
+  color: #ffffff;
+}
+
+.foot-contacts {
+  background: var(--color-footer);
+}
+
+.link-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.street-link {
+  color: #ffffff;
+}
+
+.address-list .link-info:hover,
+.address-list .link-info:focus {
+  color: #2196f3;
+}
+
+/* -----------ПОРТФОЛІО-------------- */
+
+/* --------FILTERS-BTN>BTN-TEXT------ */
+
+.btn-text {
+  /* font-family - успадкувати(inherit) */
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+
+.filters-btn .btn-text:hover,
+.filters-btn .btn-text:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.project-name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
