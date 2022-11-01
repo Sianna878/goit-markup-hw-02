@@ -13,21 +13,25 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="site">
+  <body>
+    <!-- ПОРТФОЛІО -->
     <header>
+      <!-- ШАПКА САЙТУ -->
       <nav>
+        <!-- ЛГОТИП -->
         <a href="./index.html" class="logo" lang="en"
           >Web<span class="studio-logo">Studio</span>
         </a>
-        <ul class="menu-nav">
+        <!-- МЕНЮ САЙТУ -->
+        <ul class="list">
           <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
           <li><a href="#" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="head-contacts">
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com" class="info-link"
+          <a href="mailto:info@devstudio.com" class="info-link current"
             >info@devstudio.com</a
           >
         </li>
@@ -36,18 +40,19 @@
         </li>
       </ul>
     </header>
-    <main class="portfolio">
+    <main>
       <section class="projects">
         <h1 class="visually-hidden">Наші проєкти</h1>
-        <!----------------------- FILTERS-BTN>BTN-TEXT -------------------->
-        <ul class="filters-btn">
-          <li><button type="button" class="btn-text">Усі</button></li>
-          <li><button type="button" class="btn-text">Веб-сайти</button></li>
-          <li><button type="button" class="btn-text">Додатки</button></li>
-          <li><button type="button" class="btn-text">Дизайн</button></li>
-          <li><button type="button" class="btn-text">Маркетинг</button></li>
+        <!-- КНОПКИ-ФІЛЬТРИ -->
+        <ul class="list">
+          <li><button type="button" class="btn current">Усі</button></li>
+          <li><button type="button" class="btn">Веб-сайти</button></li>
+          <li><button type="button" class="btn">Додатки</button></li>
+          <li><button type="button" class="btn">Дизайн</button></li>
+          <li><button type="button" class="btn">Маркетинг</button></li>
         </ul>
-        <ul class="projects-list">
+        <!-- ПРОЄКТИ -->
+        <ul class="list">
           <li>
             <a href="#">
               <img
@@ -70,7 +75,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
+              <h2 class="project-name">
+                Постер <span lang="en">Orlean vs Golden Star</span>
+              </h2>
               <p class="project-work">Дизайн</p>
             </a>
           </li>
@@ -83,7 +90,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Ресторан Seafood</h2>
+              <h2 class="project-name">
+                Ресторан <span lang="en">Seafood</span>
+              </h2>
               <p class="project-work">Додаток</p>
             </a>
           </li>
@@ -96,7 +105,7 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Проєкт Prime</h2>
+              <h2 class="project-name">Проєкт <span lang="en">Prime</span></h2>
               <p class="project-work">Маркетинг</p>
             </a>
           </li>
@@ -109,7 +118,7 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Проєкт Boxes</h2>
+              <h2 class="project-name">Проєкт <span lang="en">Boxes</span></h2>
               <p class="project-work">Додаток</p>
             </a>
           </li>
@@ -122,7 +131,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Inspiration has no Borders</h2>
+              <h2 class="project-name">
+                <span lang="en">Inspiration has no Borders</span>
+              </h2>
               <p class="project-work">Веб-сайт</p>
             </a>
           </li>
@@ -135,7 +146,9 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Видання Limited Edition</h2>
+              <h2 class="project-name">
+                Видання <span lang="en">Limited Edition</span>
+              </h2>
               <p class="project-work">Дизайн</p>
             </a>
           </li>
@@ -148,7 +161,7 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Проєкт LAB</h2>
+              <h2 class="project-name">Проєкт <span lang="en">LAB</span></h2>
               <p class="project-work">Маркетинг</p>
             </a>
           </li>
@@ -161,23 +174,26 @@
                 width="370"
                 height="294"
               />
-              <h2 class="project-name">Growing Business</h2>
+              <h2 class="project-name">
+                <span lang="en">Growing Business</span>
+              </h2>
               <p class="project-work">Додаток</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <!--------------------- CONTACTS ---------------------->
-    <footer class="foot-contacts">
+    <!-- ПІДВАЛ -->
+    <footer class="bg-footer">
       <a href="./index.html" class="logo" lang="en"
         >Web<span class="logo-studio">Studio</span>
       </a>
       <address>
-        <ul class="address-list">
+        <!-- КОНТАКТИ -->
+        <ul class="list">
           <li>
             <a
-              class="street-link link-info"
+              class="map-location link-contact"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -185,12 +201,12 @@
             </a>
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="mail-contact link-info"
+            <a href="mailto:info@devstudio.com" class="link-contact"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="tel-contact link-info"
+            <a href="tel:+380961111111" class="link-contact"
               >+38 096 111 11 11</a
             >
           </li>
