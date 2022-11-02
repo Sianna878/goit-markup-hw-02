@@ -25,7 +25,7 @@ body {
   color: var(--main-text-color);
 }
 
-.list {
+ul {
   list-style: none;
 }
 
@@ -44,7 +44,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  /* color: inherit; */
 }
 
 /* СТУДІЯ  */
@@ -117,8 +117,7 @@ a {
   border-radius: 4px;
   border: none;
   /* display: block;
-  margin: 0 auto; 
-  центрує кнопку*/
+  margin: 0 auto; */
 }
 
 .btn-hero:hover,
@@ -129,6 +128,7 @@ a {
 /* СЕКЦІЯ-ПЕРЕВАГИ */
 
 .benefit-name {
+  font-size: 14px;
   line-height: 1.1428;
   text-transform: uppercase;
   color: var(--secondary-text-color);
@@ -219,7 +219,7 @@ a {
   background-color: var(--border-bg-color);
 }
 
-.logo-studio {
+.logo-studio-footer {
   color: var(--logo-footer-color);
 }
 
